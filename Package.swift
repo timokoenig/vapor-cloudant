@@ -8,7 +8,7 @@ let package = Package(
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
-        .package(url: "https://github.com/vapor/vapor.git", from: "3.0.0"),
+        .package(url: "https://github.com/vapor/vapor.git", from: "3.3.0"),
 
         // CouchDB adapter
         .package(url: "https://github.com/timokoenig/swift-cloudant.git", from: "0.8.1")
